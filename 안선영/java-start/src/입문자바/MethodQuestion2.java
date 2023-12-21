@@ -1,3 +1,5 @@
+package 입문자바;
+
 import java.util.Scanner;
 public class MethodQuestion2 {
 

@@ -1,3 +1,5 @@
+package 입문자바;
+
 public class Arrangement2 {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package 입문자바;
+
 public class Method2 {
     public static void main(String[] args) {
         // boolean 예제

@@ -1,3 +1,5 @@
+package 입문자바;
+
 public class MethodQuestion1 {
     public static void main(String[] args) {
         String message = "Hello, world!";
