@@ -12,6 +12,9 @@ public class MusicPlayerMain1 {
         // 볼륨 증가
         volume++;
         System.out.println("음악 플레이어 볼륨: " + volume);
+        volume++;
+        System.out.println("음악 플레이어 볼륨: " + volume);
+
 
         // 볼륨 감속
         volume--;
@@ -20,7 +23,7 @@ public class MusicPlayerMain1 {
         // 음악 플레이어 상태
         System.out.println("음악 플레이어 상태 확인");
         if (isOn) {
-            System.out.println("음악 플레이어On, 볼륨 : ");
+            System.out.println("음악 플레이어On, 볼륨 : " + volume);
         } else {
             System.out.println("음악 플레이어 off");
         }
