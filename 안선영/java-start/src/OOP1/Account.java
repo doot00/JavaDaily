@@ -1,12 +1,17 @@
 package OOP1;
 
 public class Account {
-    int balance = 0; // 잔액
-    int amount = 0; // 출금
-    int deposit(){
+    int balance; // 잔액
 
+    void deposit(int amount) {
+        balance += amount;
     }
-    int withdraw(){
 
+    void withdraw(int amount) {
+        if (balance >= amount) {
+            balance -= amount;
+        } else {
+            System.out.println("잔액 부족");
+        }
     }
 }
