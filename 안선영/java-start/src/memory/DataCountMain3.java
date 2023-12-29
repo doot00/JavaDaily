@@ -1,5 +1,7 @@
 package memory;
 
+import static1.Data3;
+
 public class DataCountMain3 {
     public static void main(String[] args) {
 

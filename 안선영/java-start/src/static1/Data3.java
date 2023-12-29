@@ -1,4 +1,4 @@
-package memory;
+package static1;
 
 public class Data3 {
     public String name;
@@ -6,6 +6,8 @@ public class Data3 {
     // 객체가 생성되면 생성자에서 정적 변수 count의 값을 하나 증가시킨다.
     public Data3(String name) {
         this.name = name;
-        count++;
+        count++; // Data3.count로 해도 된다.
     }
 }
+
+
