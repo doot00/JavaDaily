@@ -10,6 +10,5 @@ public class DiamondMain {
         b.methodB();
         b.methodCommon();
 
-        Child
     }
 }
